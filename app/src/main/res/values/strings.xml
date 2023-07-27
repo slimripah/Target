@@ -1,3 +1,7 @@
 <resources>
+
     <string name="app_name">Target</string>
+
+    <string name="cont_desc">image resource</string>
+
 </resources>
