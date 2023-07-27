@@ -3,5 +3,6 @@
     <string name="app_name">Target</string>
 
     <string name="cont_desc">image resource</string>
+    <string name="powered">powered by mwinzi</string>
 
 </resources>
