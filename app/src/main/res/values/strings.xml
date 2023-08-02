@@ -7,6 +7,10 @@
     <string name="sign">Sign Up</string>
     <string name="sign2">create account</string>
     <string name="hint1">full names</string>
+    <string name="gender">Choose Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">Date Of Birth</string>
     <string name="hint2">phone number</string>
     <string name="hint3">email address</string>
     <string name="hint4">enter password</string>
