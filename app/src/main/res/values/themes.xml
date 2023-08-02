@@ -6,4 +6,19 @@
     </style>
 
     <style name="Theme.Target" parent="Base.Theme.Target" />
+
+    <style name="TextInputLayoutFilledStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="boxStrokeColor">@color/gas</item>
+        <item name="boxStrokeWidth">0.5dp</item>
+
+    </style>
+
 </resources>
