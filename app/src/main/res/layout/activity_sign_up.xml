@@ -37,7 +37,7 @@
         android:layout_marginLeft="20dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/name"
+        android:id="@+id/first_name"
         style="@style/TextInputLayoutFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,6 +46,26 @@
         android:layout_marginTop="50dp"
         android:layout_below="@id/signDesc"
         android:hint="@string/hint1"
+        android:layout_marginLeft="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:imeOptions="actionNext"
+            android:inputType="phone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/second_name"
+        style="@style/TextInputLayoutFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/first_name"
+        android:hint="@string/hint2"
         android:layout_marginLeft="30dp">
 
         <com.google.android.material.textfield.TextInputEditText

@@ -4,16 +4,22 @@
 
     <string name="cont_desc">image resource</string>
     <string name="powered">powered by mwinzi</string>
+
     <string name="sign">Sign Up</string>
     <string name="sign2">create account</string>
-    <string name="hint1">full names</string>
-    <string name="gender">Choose Gender</string>
-    <string name="male">Male</string>
-    <string name="female">Female</string>
-    <string name="dob">Date Of Birth</string>
-    <string name="hint2">phone number</string>
-    <string name="hint3">email address</string>
-    <string name="hint4">enter password</string>
+    <string name="hint1">first name</string>
+    <string name="hint2">second name</string>
+    <string name="hint3">Choose Gender</string>
+    <string name="hint4">Male</string>
+    <string name="hint5">Female</string>
+    <string name="hint6">Date Of Birth</string>
+    <string name="hint7">email address</string>
+    <string name="pass">enter password for your shopping account</string>
+    <string name="hint8">target password</string>
+    <string name="hint9">phone number</string>
+    <string name="otp">Verification Code</string>
+    <string name="otpdesc">Please wait for the one time pin to be added automatically</string>
+
     <string name="btn_one">Next</string>
     <string name="btn_two">Go To Shop</string>
 

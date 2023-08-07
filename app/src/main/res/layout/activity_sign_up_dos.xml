@@ -49,13 +49,13 @@
             android:id="@+id/male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/male" />
+            android:text="@string/hint4" />
 
         <RadioButton
             android:id="@+id/female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/female" />
+            android:text="@string/hint5" />
 
     </RadioGroup>
 
@@ -76,8 +76,7 @@
         android:layout_below="@id/view"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:text="@string/dob"
-        android:textColor="@color/black"
+        android:text="@string/hint6"
         android:textSize="15sp" />
 
     <DatePicker
