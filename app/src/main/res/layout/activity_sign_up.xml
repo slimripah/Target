@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="21dp"
         android:layout_below="@id/first_name"
         android:hint="@string/hint2"
         android:layout_marginLeft="30dp">

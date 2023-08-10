@@ -37,7 +37,7 @@
         android:layout_marginLeft="20dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/phone"
+        android:id="@+id/password"
         style="@style/TextInputLayoutFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,14 +45,14 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
         android:layout_below="@id/signDesc"
-        android:hint="@string/hint7"
+        android:hint="@string/hint8"
         android:layout_marginLeft="30dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:imeOptions="actionNext"
-            android:inputType="phone" />
+            android:inputType="text" />
 
     </com.google.android.material.textfield.TextInputLayout>
 

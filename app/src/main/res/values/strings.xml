@@ -15,7 +15,7 @@
     <string name="hint6">Date Of Birth</string>
     <string name="hint7">email address</string>
     <string name="pass">enter password for your shopping account</string>
-    <string name="hint8">target password</string>
+    <string name="hint8">password</string>
     <string name="hint9">phone number</string>
     <string name="otp">Verification Code</string>
     <string name="otpdesc">Please wait for the one time pin to be added automatically</string>
