@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:text="@string/sign"
         android:textSize="16sp"
+        android:fontFamily="@font/gilroy_bold"
         android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
         android:layout_below="@id/lottie_logo"
@@ -31,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign2"
+        android:fontFamily="@font/gilroy_semi"
         android:layout_below="@id/signTitle"
         android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
@@ -49,12 +51,14 @@
             android:id="@+id/male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_semi"
             android:text="@string/hint4" />
 
         <RadioButton
             android:id="@+id/female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_semi"
             android:text="@string/hint5" />
 
     </RadioGroup>
@@ -72,6 +76,7 @@
     <TextView
         android:id="@+id/dobDesc"
         android:layout_width="wrap_content"
+        android:fontFamily="@font/gilroy_semi"
         android:layout_height="wrap_content"
         android:layout_below="@id/view"
         android:layout_marginTop="20dp"
@@ -96,6 +101,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/bg_btn"
+        android:fontFamily="@font/gilroy_bold"
         android:elevation="5dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp" />
