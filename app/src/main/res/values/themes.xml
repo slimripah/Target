@@ -21,4 +21,11 @@
 
     </style>
 
+    <style name="date">
+
+        <!-- Colors -->
+        <item name="fontFamily">@font/gilroy_semi</item>
+
+    </style>
+
 </resources>
