@@ -2,6 +2,7 @@
 <resources>
 
     <color name="black">#FF000000</color>
+    <color name="ash">#2F2F2F</color>
 
     <color name="gas">#00000000</color>
     <color name="smoke">#f5f5f5</color>

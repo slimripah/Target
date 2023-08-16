@@ -5,6 +5,10 @@
     <string name="cont_desc">image resource</string>
     <string name="powered">powered by mwinzi</string>
 
+    <string name="login">Login</string>
+    <string name="login2">start shopping</string>
+    <string name="login3">forgot password?</string>
+
     <string name="sign">Sign Up</string>
     <string name="sign2">create account</string>
     <string name="hint1">first name</string>
