@@ -7,7 +7,7 @@
     tools:context=".SignUp">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie_logo"
+        android:id="@+id/lottieLogo"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
@@ -24,7 +24,7 @@
         android:fontFamily="@font/gilroy_bold"
         android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
-        android:layout_below="@id/lottie_logo"
+        android:layout_below="@id/lottieLogo"
         android:layout_marginLeft="20dp" />
 
     <TextView
@@ -39,7 +39,7 @@
         android:layout_marginLeft="20dp" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/first_name"
+        android:id="@+id/firstName"
         style="@style/TextInputLayoutFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,14 +60,14 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/second_name"
+        android:id="@+id/secondName"
         style="@style/TextInputLayoutFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:layout_below="@id/first_name"
+        android:layout_below="@id/firstName"
         android:hint="@string/hint2"
         android:layout_marginLeft="30dp">
 
@@ -90,6 +90,7 @@
         android:fontFamily="@font/gilroy_bold"
         android:background="@drawable/bg_btn"
         android:elevation="5dp"
+        android:onClick="signOne"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp" />
 

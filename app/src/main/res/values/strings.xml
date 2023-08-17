@@ -2,15 +2,20 @@
 
     <string name="app_name">Target</string>
 
+    <!-- Image Description -->
     <string name="cont_desc">image resource</string>
+
+    <!-- Splash Screen -->
     <string name="powered">powered by mwinzi</string>
 
+    <!-- Login -->
     <string name="login">Login</string>
     <string name="login2">start shopping</string>
     <string name="login3">forgot password?</string>
     <string name="login4">don\'t have an account?</string>
     <string name="login5">sign up</string>
 
+    <!-- Sign Up -->
     <string name="sign">Sign Up</string>
     <string name="sign2">create account</string>
     <string name="hint1">first name</string>
@@ -24,7 +29,6 @@
     <string name="hint8">password</string>
     <string name="hint9">phone number</string>
     <string name="done">account created successfully</string>
-
     <string name="btn_one">Next</string>
     <string name="btn_two">Go To Shop</string>
 

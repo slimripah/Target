@@ -7,7 +7,7 @@
     tools:context=".SignUpDos">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie_logo"
+        android:id="@+id/lottieLogo"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
@@ -24,7 +24,7 @@
         android:fontFamily="@font/gilroy_bold"
         android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
-        android:layout_below="@id/lottie_logo"
+        android:layout_below="@id/lottieLogo"
         android:layout_marginLeft="20dp" />
 
     <TextView
@@ -39,7 +39,7 @@
         android:layout_marginLeft="20dp" />
 
     <RadioGroup
-        android:id="@+id/radio_group"
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -70,7 +70,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/radio_group"
+        android:layout_below="@id/radioGroup"
         android:background="?colorOnBackground" />
 
     <TextView
@@ -85,7 +85,7 @@
         android:textSize="15sp" />
 
     <DatePicker
-        android:id="@+id/age_picker"
+        android:id="@+id/agePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:calendarViewShown="false"
@@ -104,6 +104,7 @@
         android:background="@drawable/bg_btn"
         android:fontFamily="@font/gilroy_bold"
         android:elevation="5dp"
+        android:onClick="signTwo"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp" />
 

@@ -9,7 +9,7 @@
     tools:context=".SignUpCinco">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie_done"
+        android:id="@+id/lottieDone"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_centerInParent="true"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/done"
         android:fontFamily="@font/gilroy_bold"
-        android:layout_below="@id/lottie_done"
+        android:layout_below="@id/lottieDone"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

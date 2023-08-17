@@ -7,7 +7,7 @@
     tools:context=".Login">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie_logo"
+        android:id="@+id/lottieLogo"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
@@ -19,7 +19,7 @@
         android:id="@+id/signTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/lottie_logo"
+        android:layout_below="@id/lottieLogo"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
@@ -68,7 +68,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="20dp"
         android:hint="@string/hint8">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -80,34 +80,39 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <RelativeLayout
-        android:id="@+id/relButton"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/gilroy_semi"
+        android:text="@string/login3"
+        android:textColor="?colorPrimary"
         android:layout_below="@id/loginPassword"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true">
-
-        <Button
-            android:id="@+id/forgotButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/gas"
-            android:text="@string/login3"
-            android:textColor="?colorPrimary" />
-
-    </RelativeLayout>
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/forgotButton"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/loginPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:onClick="forgot"
+        android:background="@color/gas" />
+
+    <Button
+        android:id="@+id/shop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/bg_btn"
         android:elevation="5dp"
+        android:onClick="shop"
         android:fontFamily="@font/gilroy_bold"
         android:text="@string/btn_two" />
 
@@ -141,6 +146,7 @@
             android:id="@+id/createAccount"
             android:layout_width="210dp"
             android:layout_height="20dp"
+            android:onClick="create"
             android:background="@color/gas" />
 
     </RelativeLayout>
