@@ -8,6 +8,8 @@
     <string name="login">Login</string>
     <string name="login2">start shopping</string>
     <string name="login3">forgot password?</string>
+    <string name="login4">don\'t have an account?</string>
+    <string name="login5">sign up</string>
 
     <string name="sign">Sign Up</string>
     <string name="sign2">create account</string>

@@ -19,36 +19,36 @@
         android:id="@+id/signTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
-        android:textSize="16sp"
-        android:fontFamily="@font/gilroy_bold"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="20dp"
         android:layout_below="@id/lottie_logo"
-        android:layout_marginLeft="20dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/login"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/signDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login2"
         android:layout_below="@id/signTitle"
-        android:fontFamily="@font/gilroy_semi"
         android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="20dp" />
+        android:fontFamily="@font/gilroy_semi"
+        android:text="@string/login2" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/loginPhone"
         style="@style/TextInputLayoutFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/signDesc"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="50dp"
-        android:layout_below="@id/signDesc"
-        android:hint="@string/hint9"
-        android:layout_marginLeft="30dp">
+        android:hint="@string/hint9">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -64,18 +64,18 @@
         style="@style/TextInputLayoutFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/loginPhone"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="21dp"
-        android:layout_below="@id/loginPhone"
-        android:hint="@string/hint8"
-        android:layout_marginLeft="30dp">
+        android:hint="@string/hint8">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:imeOptions="actionNext"
             android:fontFamily="@font/gilroy_regular"
+            android:imeOptions="actionNext"
             android:inputType="text" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -102,19 +102,46 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_two"
-        android:layout_below="@+id/relButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:fontFamily="@font/gilroy_bold"
         android:background="@drawable/bg_btn"
-        android:elevation="5dp" />
+        android:elevation="5dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:text="@string/btn_two" />
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/button"
+        android:layout_width="210dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
         android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/dont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_semi"
+            android:text="@string/login4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@id/dont"
+            android:layout_toRightOf="@id/dont"
+            android:fontFamily="@font/gilroy_semi"
+            android:text="@string/login5"
+            android:textColor="?colorPrimary" />
+
+        <Button
+            android:id="@+id/createAccount"
+            android:layout_width="210dp"
+            android:layout_height="20dp"
+            android:background="@color/gas" />
 
     </RelativeLayout>
 
