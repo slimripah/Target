@@ -13,7 +13,7 @@
         android:contentDescription="@string/cont_desc"
         android:src="@drawable/logo"
         android:layout_centerInParent="true"
-        app:tint="#E0B0FF" />
+        app:tint="?colorPrimary" />
 
     <TextView
         android:id="@+id/powered"
@@ -23,6 +23,6 @@
         android:fontFamily="@font/gilroy_bold"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="10dp" />
+        android:layout_margin="20dp" />
 
 </RelativeLayout>
