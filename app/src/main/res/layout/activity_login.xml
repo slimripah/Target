@@ -84,13 +84,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/gilroy_semi"
-        android:text="@string/login3"
-        android:textColor="?colorPrimary"
         android:layout_below="@id/loginPassword"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_margin="10dp" />
+        android:layout_margin="10dp"
+        android:fontFamily="@font/gilroy_semi"
+        android:text="@string/login3"
+        android:textColor="?colorPrimary" />
 
     <Button
         android:id="@+id/forgotButton"
@@ -100,8 +100,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_margin="10dp"
-        android:onClick="forgot"
-        android:background="@color/gas" />
+        android:background="@color/gas"
+        android:onClick="forgot" />
 
     <Button
         android:id="@+id/shop"
@@ -113,8 +113,8 @@
         android:layout_marginBottom="60dp"
         android:background="@drawable/bg_btn"
         android:elevation="5dp"
-        android:onClick="shop"
         android:fontFamily="@font/gilroy_bold"
+        android:onClick="shop"
         android:text="@string/btn_two" />
 
     <RelativeLayout
@@ -146,8 +146,8 @@
             android:id="@+id/createAccount"
             android:layout_width="210dp"
             android:layout_height="20dp"
-            android:onClick="create"
-            android:background="@color/gas" />
+            android:background="@color/gas"
+            android:onClick="create" />
 
     </RelativeLayout>
 
