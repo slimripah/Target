@@ -32,4 +32,14 @@
     <string name="btn_one">Next</string>
     <string name="btn_two">Go To Shop</string>
 
+    <!-- Forgot Password -->
+    <string name="forget">Forgot Your Password?</string>
+    <string name="forget2">Don\'t fret. Let\'s take it from here. Enter your phone number below to set a new password</string>
+    <string name="forget3">New Credentials</string>
+    <string name="forget4">Just one more thing and you are back like you never left</string>
+    <string name="forget5">new password</string>
+    <string name="forget6">confirm password</string>
+    <string name="forget7">password reset successfully. happy shopping</string>
+    <string name="Next">Next</string>
+
 </resources>

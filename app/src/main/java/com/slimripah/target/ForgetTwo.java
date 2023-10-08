@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ForgetOne extends AppCompatActivity {
+public class ForgetTwo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forget_one);
+        setContentView(R.layout.activity_forget_two);
     }
 
-    public void set (View view) {
-        Intent intent = new Intent(ForgetOne.this, ForgetTwo.class);
+    public void fin (View view) {
+        Intent intent = new Intent(ForgetTwo.this, ForgetThree.class);
         startActivity(intent);
         finish();
     }

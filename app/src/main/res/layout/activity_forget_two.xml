@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ForgetOne">
+    tools:context=".ForgetTwo">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieForget"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="50dp"
         android:elevation="5dp"
         app:lottie_autoPlay="true"
-        app:lottie_rawRes="@raw/forgot_lottie" />
+        app:lottie_rawRes="@raw/credentials_lottie" />
 
     <TextView
         android:id="@+id/forgetTitle"
@@ -23,7 +23,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/gilroy_bold"
-        android:text="@string/forget"
+        android:text="@string/forget3"
         android:textSize="18sp" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/forgetTitle"
         android:layout_centerHorizontal="true"
-        android:text="@string/forget2"
+        android:text="@string/forget4"
         android:fontFamily="@font/gilroy_semi"
         android:textSize="13sp"
         android:layout_marginStart="30dp"
@@ -40,7 +40,7 @@
         android:gravity="center_horizontal" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/phoneForget"
+        android:id="@+id/newPassword"
         style="@style/TextInputLayoutFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,19 +49,40 @@
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="50dp"
-        android:hint="@string/hint9">
+        android:hint="@string/forget5">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="@font/gilroy_regular"
             android:imeOptions="actionNext"
-            android:inputType="phone" />
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confirmPassword"
+        style="@style/TextInputLayoutFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/forget6">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/gilroy_regular"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/next"
+        android:id="@+id/next2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -71,7 +92,7 @@
         android:background="@drawable/bg_btn"
         android:elevation="5dp"
         android:fontFamily="@font/gilroy_bold"
-        android:onClick="set"
+        android:onClick="fin"
         android:text="@string/Next" />
 
 </RelativeLayout>
