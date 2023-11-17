@@ -42,4 +42,10 @@
     <string name="forget7">password reset successfully. happy shopping</string>
     <string name="Next">Next</string>
 
+    <!-- Dashboard -->
+    <string name="name">Target</string>
+    <string name="nameTwo">Supermarket</string>
+    <string name="location">Mwingi, Kitui</string>
+    <string name="tagline">where community comes first, and deals follow close behind</string>
+
 </resources>

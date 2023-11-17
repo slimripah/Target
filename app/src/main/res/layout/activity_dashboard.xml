@@ -6,6 +6,91 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
-    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_marginTop="-15dp"
+        app:cardBackgroundColor="#6750a4"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/ic_location"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/cont_desc"
+                android:src="@drawable/ic_location"
+                app:tint="@color/smoke" />
+
+            <TextView
+                android:id="@+id/tt_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/ic_location"
+                android:layout_toRightOf="@id/ic_location"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="@string/location"
+                android:textColor="@color/smoke" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="@string/name"
+                android:textColor="@color/smoke"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/nameTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="@string/nameTwo"
+                android:textColor="@color/smoke"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tagline"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameTwo"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gilroy_semi"
+                android:text="@string/tagline"
+                android:textColor="@color/smoke"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/pc_shop"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/cont_desc"
+                android:src="@drawable/pc_shop" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
+
