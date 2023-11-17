@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654186530884",
+    "project_id": "target-ae260",
+    "storage_bucket": "target-ae260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654186530884:android:eec3f68428223ddbb95411",
+        "android_client_info": {
+          "package_name": "com.slimripah.target"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfT5VsCJrzQor3b76ne2n0t_SZiUhAJxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
